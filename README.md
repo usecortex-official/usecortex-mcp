@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://usecortex.net/logo-64.png" alt="UseCortex" width="64" height="64" />
-</p>
-
 <h1 align="center">UseCortex MCP Server</h1>
 
 <p align="center">
