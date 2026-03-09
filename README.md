@@ -86,13 +86,12 @@ Replace `YOUR_API_KEY` with the key generated in step 1.
 
 ### `query_knowledge`
 
-Search your knowledge base. Returns relevant facts organized by topic.
+Ask a natural language question and get an AI-powered answer based on your stored knowledge.
 
 | Parameter | Type     | Required | Description                                    |
 |-----------|----------|----------|------------------------------------------------|
-| `query`   | `string` | Yes      | Natural language question or search term       |
+| `query`   | `string` | Yes      | Natural language question                      |
 | `topic`   | `string` | No       | Filter by specific topic                       |
-| `format`  | `string` | No       | `"markdown"` (default), `"json"`, or `"text"` |
 
 ### `list_topics`
 
@@ -100,7 +99,7 @@ List all knowledge topics. Takes no parameters.
 
 ### `add_knowledge`
 
-Write new knowledge back to your base. Your agent can store discoveries, decisions, or patterns it finds.
+Write new knowledge to your base. Your agent can store discoveries, decisions, or patterns it finds.
 
 | Parameter | Type     | Required | Description                                    |
 |-----------|----------|----------|------------------------------------------------|
@@ -114,7 +113,14 @@ Retrieve all knowledge entries for a specific topic.
 | Parameter | Type     | Required | Description                        |
 |-----------|----------|----------|------------------------------------|
 | `topic`   | `string` | Yes      | Topic name to retrieve             |
-| `format`  | `string` | No       | `"markdown"`, `"json"`, or `"text"` |
+
+### `search_knowledge`
+
+Search knowledge entries by keyword (text match).
+
+| Parameter | Type     | Required | Description                        |
+|-----------|----------|----------|------------------------------------|
+| `query`   | `string` | Yes      | Search term                        |
 
 ## Use Cases
 
