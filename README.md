@@ -15,6 +15,10 @@
   <a href="#pricing">Pricing</a>
 </p>
 
+<p align="center">
+  <img src="demo.gif" alt="UseCortex demo — store knowledge, query from any AI agent" width="720" />
+</p>
+
 ---
 
 UseCortex MCP is a [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI coding agents persistent memory. Your agent can read knowledge you've stored and write new discoveries back — all through a single encrypted endpoint.
