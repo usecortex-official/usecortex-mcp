@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo-64.png" alt="UseCortex" width="64" height="64" />
+  <img src="logo.png" alt="UseCortex" width="300" />
 </p>
 
 <h1 align="center">UseCortex MCP Server</h1>
