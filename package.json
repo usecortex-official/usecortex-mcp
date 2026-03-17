@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "keywords": ["mcp", "ai", "memory", "knowledge-base", "coding-agent", "encrypted"],
-  "author": "darktw",
+  "author": "Altazi Labs, Inc.",
   "license": "MIT",
   "repository": {
     "type": "git",

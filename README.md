@@ -211,3 +211,7 @@ Found a bug or have a feature request? [Open an issue](https://github.com/usecor
 ## License
 
 [MIT](LICENSE)
+
+---
+
+© 2026 Altazi Labs, Inc. All rights reserved. · [contact@altazilabs.com](mailto:contact@altazilabs.com)
